@@ -24,28 +24,37 @@
         </li>
       </ul>
       <h1 class="header__title">Heroes</h1>
-      <ol class="header__contact">
-        <li>
-          <a href="contacto.html" target="_blank" class="header__item"
-            >Contacto</a
-          >
-        </li>
-        <li>
-          <a href="reg.htm" target="_blank" class="header__item">Registrarme</a>
-        </li>
-        <li>
-          <a href="ingresar.htm" target="_blank" class="header__item"
-            >Ingresar</a
-          >
-        </li>
-      </ol>
     </header>
-    <main>
-        <form>
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre">
-        </form>
+    <main class="main">
+      <form class="main__form">
+        <label class="form_title">Contacto</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre y apellido"
+          class="form__item"
+        />
 
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Correo Electrónico"
+          class="form__item"
+        />
+
+        <textarea
+          name="comentario"
+          id="comentario"
+          placeholder="Escriba su comentario"
+          class="form__comment"
+          resize:none
+        ></textarea>
+
+        <button type="reset" class="button__reset">Resetear</button>
+        <button type="submit" class="button__in">Entrar</button>
+      </form>
     </main>
     <footer class="footer">
       <span>Todos los derechos reservados a FRONT END 1</span>
