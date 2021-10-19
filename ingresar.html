@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
+    <title>Ingreso</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
@@ -27,14 +27,7 @@
     </header>
     <main class="main">
       <form class="main__form">
-        <label class="form_title">Contacto</label>
-        <input
-          type="text"
-          name="nombre"
-          id="nombre"
-          placeholder="Nombre y apellido"
-          class="form__item"
-        />
+        <label class="form_title">Login</label>
 
         <input
           type="email"
@@ -44,17 +37,22 @@
           class="form__item"
         />
 
-        <textarea
-          name="comentario"
-          id="comentario"
-          placeholder="Escriba su comentario"
-          class="form__comment"
-          resize:none
-        ></textarea>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Escriba su contraseña"
+          class="form__item"
+        />
 
-        <button type="reset" class="button__reset">Resetear</button>
-        <button type="submit" class="button__in">Entrar</button>
+        <button type="submit" class="button__reg">Entrar</button>
       </form>
+      <p class="form__end">
+        ¿No tienes cuenta?
+        <a href="registro.html" target="_blank" class="form__link"
+          >Registrate!</a
+        >
+      </p>
     </main>
     <footer class="footer">
       <span>Todos los derechos reservados a FRONT END 1</span>

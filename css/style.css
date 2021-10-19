@@ -204,7 +204,39 @@ body {
 
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  position: relative;
+}
+
+.form__select {
+  display: block;
+  height: 30px;
+  width: 400px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+.form__end {
+  position: absolute;
+  bottom: -30px;
+}
+
+.form__link {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+.button__reg {
+  width: 360px;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  right: 5%;
+  background-color: #1cd1b0;
+  border: none;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
 }
