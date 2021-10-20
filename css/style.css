@@ -80,7 +80,7 @@ body {
 }
 .header__contact2 {
   font-weight: normal;
-  background-color: var(--color-primary));
+  background-color: var(--color-primary);
   display: flex;
   justify-content:space-evenly;
   align-items: center;
